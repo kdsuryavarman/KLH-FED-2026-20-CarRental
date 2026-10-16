@@ -1,0 +1,12 @@
+SAMPLE INPUT
+------------
+Ravi
+1
+3
+
+
+CONSOLE OUTPUT
+--------------
+Customer: Start day number: End day number: Assigned E1 for days 1 to 3
+Rentals saved in program memory: 1
+
