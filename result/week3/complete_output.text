@@ -1,0 +1,11 @@
+SAMPLE INPUT
+------------
+0
+
+
+CONSOLE OUTPUT
+--------------
+KA09-ECO-1 Economy odometer=12000 dailyRate=1200.0
+KA09-SUV-3 SUV odometer=40000 dailyRate=2500.0
+Choose car (0 or 1): Rental accepted
+
