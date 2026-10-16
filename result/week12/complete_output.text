@@ -1,0 +1,77 @@
+SAMPLE INPUT
+------------
+1
+KA09-SUV-3
+Ravi
+2026-10-20
+2026-10-23
+41230
+0.75
+2
+KA09-SUV-3
+2026-10-24
+41710
+0.5
+1
+KA09-SUV-3
+Mira
+2026-10-26
+2026-10-27
+3
+KA09-SUV-3
+oil change
+1800
+4
+5
+
+
+CONSOLE OUTPUT
+--------------
+
+=== Fleet Manager ===
+1 Rent/Checkout  2 Return  3 Service  4 Report  5 Save and Exit
+Choice: ID            Class     Odometer   Rate/day   Status
+KA09-ECO-1    Economy   12000      1200       OK
+KA09-SUV-3    SUV       39000      2500       OK
+KA09-LUX-2    Luxury    25000      4500       OK
+Vehicle ID: Customer: Start date (yyyy-mm-dd): Due date (yyyy-mm-dd): Checkout odometer: Checkout fuel (0.0 to 1.0): Assigned KA09-SUV-3 to Ravi
+
+=== Fleet Manager ===
+1 Rent/Checkout  2 Return  3 Service  4 Report  5 Save and Exit
+Choice: Vehicle ID to return: Actual return date (yyyy-mm-dd): Return odometer: Return fuel (0.0 to 1.0): 
+--- Invoice ---
+Vehicle: KA09-SUV-3 | Customer: Ravi
+Days: 3 | Distance: 480 km | Late days: 1
+Charge: Rs. 12440.00
+Service due: rentals blocked until service is recorded
+
+=== Fleet Manager ===
+1 Rent/Checkout  2 Return  3 Service  4 Report  5 Save and Exit
+Choice: ID            Class     Odometer   Rate/day   Status
+KA09-ECO-1    Economy   12000      1200       OK
+KA09-SUV-3    SUV       41710      2500       SERVICE DUE
+KA09-LUX-2    Luxury    25000      4500       OK
+Vehicle ID: Customer: Start date (yyyy-mm-dd): Due date (yyyy-mm-dd): Vehicle needs service first
+
+=== Fleet Manager ===
+1 Rent/Checkout  2 Return  3 Service  4 Report  5 Save and Exit
+Choice: ID            Class     Odometer   Rate/day   Status
+KA09-ECO-1    Economy   12000      1200       OK
+KA09-SUV-3    SUV       41710      2500       SERVICE DUE
+KA09-LUX-2    Luxury    25000      4500       OK
+Vehicle ID: Work done: Service cost (Rs):
+KA09-SUV-3 serviced. Next service at 51710 km
+
+=== Fleet Manager ===
+1 Rent/Checkout  2 Return  3 Service  4 Report  5 Save and Exit
+Choice: Current utilisation: 0.0% (0/3 vehicles out)
+Revenue by class:
+SUV: Rs. 12440.00
+Vehicles due for service:
+None
+All rentals: 1 | Service records: 1
+
+=== Fleet Manager ===
+1 Rent/Checkout  2 Return  3 Service  4 Report  5 Save and Exit
+Choice: Data saved. Bye.
+
