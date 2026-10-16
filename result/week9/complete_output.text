@@ -1,0 +1,13 @@
+SAMPLE INPUT
+------------
+Ravi
+1 4
+39000 39480
+0.75 0.50
+
+
+CONSOLE OUTPUT
+--------------
+Customer: Start day and dueDate day: Start odometer and return odometer: Start fuel and end fuel (0 to 1): Invoice: Rental[vehicleId=S1, customerName=Ravi, startDay=1, dueDay=4, startOdometer=39000, returnOdometer=39480, checkoutFuel=0.75, returnFuel=0.5, totalFee=11940.0]
+Total Rs.11940.0
+
