@@ -1,0 +1,17 @@
+SAMPLE INPUT
+------------
+1
+2
+1
+3
+
+
+CONSOLE OUTPUT
+--------------
+1 Fleet  2 Rent  3 Exit
+KA09-ECO-1  Economy  Rs.1200.0  available=true
+KA09-SUV-3  SUV  Rs.2500.0  available=true
+1 Fleet  2 Rent  3 Exit
+Enter car number (0 or 1): Car assigned: KA09-SUV-3
+1 Fleet  2 Rent  3 Exit
+
