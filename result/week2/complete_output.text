@@ -1,0 +1,12 @@
+SAMPLE INPUT
+------------
+13000
+
+
+CONSOLE OUTPUT
+--------------
+Fleet:
+KA09-ECO-1 Economy dailyRate=1200.0 odometer=12000 fuel=1.0 available=true
+KA09-SUV-3 SUV dailyRate=2500.0 odometer=39000 fuel=0.75 available=true
+Enter new odometer reading for first car: Updated odometer: 13000
+
