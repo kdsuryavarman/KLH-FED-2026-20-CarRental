@@ -1,0 +1,10 @@
+SAMPLE INPUT
+------------
+(none)
+
+CONSOLE OUTPUT
+--------------
+Car / Day 1 2 3 4 5 6 7 
+E1        - X X X - - - 
+S1        - - - - X X X 
+
